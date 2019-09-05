@@ -1,0 +1,29 @@
+body {
+    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    background: palegreen;
+}
+
+.working-part {
+    display: block;
+}
+
+.preparation-item {
+    display: block;
+    max-width: 100%;
+    background: yellow;
+}
+
+header {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+#worx {
+    font-size: 30px;
+    padding: 5px;
+    background-color: blue;
+    color: black;
+}
