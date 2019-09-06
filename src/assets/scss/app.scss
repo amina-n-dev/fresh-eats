@@ -1,29 +1,106 @@
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
-    background: palegreen;
+    // background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    background-color: #b6fcd5;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.working-part {
-    display: block;
+// .working-part {
+//     display: block;
+// }
+
+// .preparation-item {
+//     display: block;
+//     max-width: 100%;
+//     background-color: #b6fcd5;
+// }
+
+// header {
+//     // display: flexbox;
+//     font-size: 20px;
+//     padding: 20px;
+//     background-color: palegreen;
+//     // width: 100%;
+// }
+
+.works {
+    min-width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+    // padding: 35px;
+    background-color: palegreen;
 }
 
-.preparation-item {
-    display: block;
-    max-width: 100%;
-    background: yellow;
+// // .picky {
+// //     min-width: 50%;
+// //     height: auto;
+// // }
+
+// .fruity {
+//     min-width: 50%;
+//     height: auto;
+//     display: flex;
+//     justify-content: flex-end;
+// }
+
+// .my-nav {
+//     background-color: yellow;
+//     font-size: 20px;
+//     display: inline;
+//     border: 12px;
+// }
+
+// .topline {
+//     background-color: lightseagreen;
+//     padding: 12px;
+//     font-size: 10px;
+//     text-decoration: black;
+//     margin: auto;
+// }
+
+// .top {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: flex-end;
+// }
+// //     width: 100%;
+// //     height: 20%;
+// //     border: 12px solid palegreen;
+// //     background-color: yellow;
+// // }
+
+// .fresh {
+//     font-size: 20px;
+//     min-width: 50%;
+//     display: flex;
+//     justify-content: center;
+//     background-color: #b6fcd5;
+// }
+
+// .slogan {
+//     min-width: 50%;
+//     height: auto;
+//     font-size: 40px;
+//     background-color: palegreen;
+// }
+
+h3 {
+    background-color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
 }
 
-header {
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-    background-color: aliceblue;
-    width: 100%;
+h4 {
+    background-color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
 }
 
-#worx {
-    font-size: 30px;
-    padding: 5px;
-    background-color: blue;
-    color: black;
+.classy {
+    background-color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
 }
