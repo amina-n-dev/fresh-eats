@@ -4,91 +4,41 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-// .working-part {
-//     display: block;
+// .topline {
+//     display: flex;
+//     justify-content: center;
+//     background-color: white;
+//     font-size: 40px;
+//     color: salmon;
 // }
 
-// .preparation-item {
-//     display: block;
-//     max-width: 100%;
-//     background-color: #b6fcd5;
-// }
-
-// header {
-//     // display: flexbox;
-//     font-size: 20px;
-//     padding: 20px;
-//     background-color: palegreen;
-//     // width: 100%;
-// }
+.container1 {
+    display: flex;
+    align-content: space-around;
+    background-color: #32a893;
+    font-size: 60px;
+    font-style: oblique;
+    color: greenyellow;
+    padding: 12px;
+    border-radius: 12px;
+}
 
 .works {
-    min-width: 30%;
+    min-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 9px;
     // padding: 35px;
     background-color: palegreen;
 }
 
-// // .picky {
-// //     min-width: 50%;
-// //     height: auto;
-// // }
-
-// .fruity {
-//     min-width: 50%;
-//     height: auto;
-//     display: flex;
-//     justify-content: flex-end;
-// }
-
-// .my-nav {
-//     background-color: yellow;
-//     font-size: 20px;
-//     display: inline;
-//     border: 12px;
-// }
-
-// .topline {
-//     background-color: lightseagreen;
-//     padding: 12px;
-//     font-size: 10px;
-//     text-decoration: black;
-//     margin: auto;
-// }
-
-// .top {
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: flex-end;
-// }
-// //     width: 100%;
-// //     height: 20%;
-// //     border: 12px solid palegreen;
-// //     background-color: yellow;
-// // }
-
-// .fresh {
-//     font-size: 20px;
-//     min-width: 50%;
-//     display: flex;
-//     justify-content: center;
-//     background-color: #b6fcd5;
-// }
-
-// .slogan {
-//     min-width: 50%;
-//     height: auto;
-//     font-size: 40px;
-//     background-color: palegreen;
-// }
-
 h3 {
-    background-color: aquamarine;
+    text-align: center;
+    background-color: white;
     font-size: 40px;
     font-style: italic;
     font-weight: bolder;
+    border-radius: 6px;
 }
 
 h4 {
@@ -98,17 +48,33 @@ h4 {
     font-weight: bolder;
 }
 
-.classy {
-    background-color: aquamarine;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bolder;
+.plan-section {
+    display: inline-block;
+    align-content: space-between;
+    background-color: whitesmoke;
 }
 
-h2 {
-    color: rosybrown;
+.top-nav {
+    display: block;
     font-size: 20px;
+    text-align: center;
+    background-color: white;
 }
+
+// .classy {
+//     display: flex;
+//     background-color: aquamarine;
+//     font-size: 40px;
+//     font-style: italic;
+//     font-weight: bolder;
+//     justify-content: space-evenly;
+// }
+
+// h1 {
+//     color: black;
+//     text-decoration-color: darkgreen;
+//     font-size: 20px;
+// }
 
 .contact {
     display: flex;
