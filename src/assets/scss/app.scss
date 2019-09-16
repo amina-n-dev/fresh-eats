@@ -15,7 +15,7 @@ body {
 .container1 {
     display: flex;
     align-content: space-around;
-    background-color: #32a893;
+    // background-color: #32a893;
     font-size: 60px;
     font-style: oblique;
     color: greenyellow;
@@ -24,12 +24,11 @@ body {
 }
 
 .works {
-    min-width: 100%;
     display: flex;
+    min-width: 100%;
     justify-content: space-evenly;
     font-size: 9px;
-    // padding: 35px;
-    background-color: palegreen;
+    background-color: burlywood;
 }
 
 h3 {
@@ -56,9 +55,18 @@ h4 {
 
 .top-nav {
     display: block;
+    justify-content: space-around;
     font-size: 20px;
-    text-align: center;
     background-color: white;
+    margin: 16px;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
 }
 
 // .classy {
@@ -94,9 +102,19 @@ h4 {
     background-color: cyan;
 }
 
-.extra {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: antiquewhite;
-    padding: 12px;
+// .extra {
+//     display: flex;
+//     justify-content: space-evenly;
+//     background-color: antiquewhite;
+//     padding: 12px;
+// }
+
+a:hover {
+    background-color: yellow;
+    border: 2px solid blue;
+    border-radius: 6px;
+    border-color: aqua;
+    text-shadow: 2px 2px 7px rgba(150, 150, 150, 1);
+    color: red;
+    transition: ease 0.5s all;
 }
